@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.winner , .answer
+{
+    margin: 100px;
+    font-size: large;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    visibility: hidden;
+}
+td
+{
+    width: 80px;
+    height: 80px;
+   text-align: center;
+   border: 2px solid black;
+   font-size: 50px;
+   cursor: pointer;
+}
+td:active
+{
+    cursor: grab;
+}
+#winner
+{
+    font-size: xx-large;
+}
